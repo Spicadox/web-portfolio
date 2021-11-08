@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+  /* background-image: url('./assets/test.jpg');*/
+}
+.Background-Img {
+  height: 100%;
+  position:absolute;
+  z-index: -1;
+  /* height: 100%; */
+  /* opacity: 0.9; */
+  background-size: 100%;
+}
+.Background-Img > img {
+  height: 100%;
+  object-fit: cover;
+  /* background-size: ; */
+}
+
+.intro_header {
+  color: white;
+}
+.Container {
+  height: 100%;
+  width: 100%
+}
+.chakra-heading {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.skill_list {
+  color: white;
+}
+
+
+
+
+.flex1 {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flex2 {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 5em;
+}
+
+
+ .language_column, .framework_column, .midDiv {
+  flex: 1;
+  flex-wrap: wrap;
+}
+ 
+.language_column {
+  flex: 1;
+  flex-wrap: wrap;
+}
+.framework_column {
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+
+.projects {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+}
+.project{
+  /* borderWidth:"1px";
+  borderRadius:"lg";
+  overflow:"hidden"; */
+  max-width: 30em;
+  justify-content: baseline;
+  margin: 2em;
+  /* margin-bottom: auto; */
+}
+.project_name {
+  padding: 0.25em;
+}
+.project_description{
+  color:white;
+  padding: 1.5em;
+  margin:auto;
+}
+
+.contact_form {
+  padding: 2em;
+}
+.contact_form > div {
+  padding-bottom: 1.5em;
+}
