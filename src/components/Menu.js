@@ -26,11 +26,6 @@ const NavLink = ({ children }: { children: ReactNode }) => (
       textDecoration: 'none',
       bg: useColorModeValue('gray.200', 'gray.600'),
     }}
-    // onClick={() => scroll.scrollTo(ReactDOMServer.renderToString(children), {
-    //   smooth: true,
-    //   offset: -70,
-    //   duration: 500,
-    // })}
     onClick={() => {
       const anchor = document.getElementById(ReactDOMServer.renderToString(children))
       anchor.scrollIntoView({ behavior: 'smooth', block: 'center' })
@@ -56,7 +51,6 @@ export default function Simple() {
             onClick={isOpen ? onClose : onOpen}
           />
           <HStack spacing={8} alignItems={'center'}>
-            {/* <Box>Logo</Box> */}
             <HStack
               as={'nav'}
               spacing={10}

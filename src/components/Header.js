@@ -1,6 +1,5 @@
-import { Box, Container, Circle, Center, VStack } from '@chakra-ui/layout'
-import { Text, Heading, Flex, Button } from '@chakra-ui/react'
-import { useColorMode } from '@chakra-ui/color-mode'
+import { Box, Center, VStack } from '@chakra-ui/layout'
+import { Text, Heading, Flex } from '@chakra-ui/react'
 import React from 'react'
 
 function Header() {
@@ -13,10 +12,7 @@ function Header() {
                         <Heading fontSize="6xl" padding="2">Hi, I am <Heading fontSize="6xl" color="blue.300">Sam</Heading></Heading>
                     </Flex>
                     <Text fontSize='2xl'>I like learning new things and challenging myself as a software engineer</Text>
-                    {/* <Circle position="absolute" size="15em" bg="skyblue" color="white" alignSelf="end" /> */}
                 </VStack>
-
-
             </Box>
         </Center>
     )

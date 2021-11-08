@@ -1,9 +1,9 @@
-import { Container, Box, Center, HStack, StackDivider } from '@chakra-ui/layout'
+import { Box, Center, HStack } from '@chakra-ui/layout'
 import { Text, Heading, Button, IconButton } from "@chakra-ui/react"
 import { FaGithub, FaLinkedin } from "react-icons/fa"
 import { IoOpenOutline } from "react-icons/io5"
 import React from 'react'
-import Resume from '../assets/Resume - Linkedin.pdf'
+import Resume from '../assets/Resume.pdf'
 
 function about() {
     return (

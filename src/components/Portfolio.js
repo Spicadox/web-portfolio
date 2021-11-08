@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Box, Center, HStack, StackDivider, Flex, Spacer } from '@chakra-ui/layout'
+import { Box, Center, Flex } from '@chakra-ui/layout'
 import { Text, Heading, Button, IconButton } from "@chakra-ui/react"
 import { FaGithub } from "react-icons/fa"
 import { CgWebsite } from "react-icons/cg"

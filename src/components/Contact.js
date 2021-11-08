@@ -1,15 +1,7 @@
 import React from 'react'
-import { Container, Box, Center, HStack, StackDivider, Flex, Spacer } from '@chakra-ui/layout'
-import {
-    Text, Heading, Button, IconButton, Input, Textarea, Link
-} from "@chakra-ui/react"
-import {
-    FormControl,
-    FormLabel,
-    FormErrorMessage,
-    FormHelperText,
-    FormErrorIcon
-} from "@chakra-ui/form-control"
+import { Box } from '@chakra-ui/layout'
+import { Heading, Button, Input, Textarea } from "@chakra-ui/react"
+import { FormControl, FormLabel, FormErrorMessage } from "@chakra-ui/form-control"
 import { Formik, Form, Field } from 'formik'
 import emailjs from 'emailjs-com';
 

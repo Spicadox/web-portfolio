@@ -1,6 +1,6 @@
 import React from 'react'
 import { Text } from '@chakra-ui/react'
-import { Center, Box } from '@chakra-ui/layout'
+import { Box } from '@chakra-ui/layout'
 
 function footer() {
     return (

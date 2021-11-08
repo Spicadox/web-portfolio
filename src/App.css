@@ -1,19 +1,15 @@
 .App {
   text-align: center;
-  /* background-image: url('./assets/test.jpg');*/
 }
 .Background-Img {
   height: 100%;
   position:absolute;
   z-index: -1;
-  /* height: 100%; */
-  /* opacity: 0.9; */
   background-size: 100%;
 }
 .Background-Img > img {
   height: 100%;
   object-fit: cover;
-  /* background-size: ; */
 }
 
 .intro_header {
@@ -33,9 +29,7 @@
 }
 
 
-
-
-.flex1 {
+.heading_box {
   max-width: 1000px;
   display: flex;
   flex-direction: column;
@@ -44,7 +38,7 @@
   flex-wrap: wrap;
 }
 
-.flex2 {
+.list_box {
   display: flex;
   flex: 1;
   justify-content: center;
@@ -70,17 +64,12 @@
 
 .projects {
   display: flex;
-  /* flex-wrap: wrap; */
   justify-content: center;
 }
 .project{
-  /* borderWidth:"1px";
-  borderRadius:"lg";
-  overflow:"hidden"; */
   max-width: 30em;
   justify-content: baseline;
   margin: 2em;
-  /* margin-bottom: auto; */
 }
 .project_name {
   padding: 0.25em;
