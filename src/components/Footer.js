@@ -6,11 +6,20 @@ import { IconButton } from '@chakra-ui/react'
 import { animateScroll as scroll } from 'react-scroll'
 function footer() {
     return (
-
         <Flex flexDirection="column" justifyContent="center" marginTop="10em" padding="5" style={{ backgroundColor: 'rgba(52, 52, 52)' }}>
             <Center>
                 <IconButton
                     onClick={scroll.scrollToTop}
+                    position="absolute"
+                    bottom={() => {
+                        try {
+                            if (window.innerWidth < 700) return "7vh";
+                            else return "5vh";
+                        }
+                        catch {
+                            return "5vh";
+                        }
+                    }}
                     bgColor='rgba(140, 20, 252, 1)'
                     colorScheme="pink"
                     id="upArrow"
