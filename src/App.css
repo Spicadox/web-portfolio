@@ -88,3 +88,13 @@
 .contact_form > div {
   padding-bottom: 1.5em;
 }
+
+#upArrow {
+  position: absolute;
+  /* margin-bottom: 4vh;
+  margin-right: 4vw; */
+  /* right: 42%; */
+  /* bottom: 0; */
+  /* left: 48vw; */
+  bottom: 5vh;
+}

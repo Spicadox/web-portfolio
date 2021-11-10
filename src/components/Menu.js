@@ -11,11 +11,19 @@ import {
 } from '@chakra-ui/react';
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 import ReactDOMServer from 'react-dom/server';
+import { Link as ReactLink } from 'react-scroll'
 const Links = ['About', 'Skill', 'Portfolio', 'Contact'];
 
 
 const NavLink = ({ children }: { children: ReactNode }) => (
   <Link
+    as={ReactLink}
+    to={children}
+    smooth={true}
+    duration={800}
+    spy={true}
+    exact='true'
+    offset={0}
     px={4}
     py={1}
     rounded={'md'}
