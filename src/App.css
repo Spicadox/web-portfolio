@@ -1,6 +1,8 @@
 .App {
   text-align: center;
+  overflow-x: hidden;
 }
+
 .Background-Img {
   height: 100%;
   position:absolute;
