@@ -18,7 +18,7 @@ function contact() {
         let error
         if (!value) {
             error = "Email is required"
-        } else if (!value.includes("@") || value[0] == "@" || !value.includes(".com")) {
+        } else if (!value.includes("@") || value[0] === "@" || !value.includes(".com")) {
             error = "Please enter a valid email"
         }
         return error

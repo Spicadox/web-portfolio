@@ -15,7 +15,7 @@ function App() {
       <div className="Background-Img">
         <img src={backgroundImg} alt="background_img" />
       </div>
-      <div className="Container" style={{ height: "100vh" }} >
+      <div className="Container" style={{ minHeight: "100vh" }} >
         <Menu />
         <Header className="header" />
       </div>
