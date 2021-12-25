@@ -8,7 +8,7 @@ import Resume from '../assets/Resume.pdf'
 function about() {
     return (
         <Center>
-            <Box id="About" maxWidth="1200" bg="gray" padding="10" borderRadius="2xl" style={{ backgroundColor: 'rgba(52, 52, 52, 0.9)' }}>
+            <Box id="About" maxWidth="1200" bg="gray" padding="10" style={{ backgroundColor: 'rgba(52, 52, 52, 0.9)' }}>
                 <Heading fontSize="6xl" padding="2">
                     About Me
                 </Heading>

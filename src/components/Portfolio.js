@@ -53,7 +53,7 @@ function portfolio() {
                                 <a className="website_button" target="_blank" rel="noopener" href="https://otaku-meetup.herokuapp.com/">
                                     <IconButton
                                         borderRadius="none"
-                                        aria-label="Github Icon"
+                                        aria-label="CgWebsite Icon"
                                         colorScheme="purple"
                                         fontSize="45px"
                                         size="lg"
@@ -100,7 +100,7 @@ function portfolio() {
                             <Box w="100%">
                                 <a className="website_button" target="_blank" rel="noopener" href="https://spicadox.github.io/w2x101/">
                                     <IconButton
-                                        aria-label="Github Icon"
+                                        aria-label="CgWebsite Icon"
                                         borderRadius="none"
                                         colorScheme="purple"
                                         fontSize="45px"
@@ -133,15 +133,30 @@ function portfolio() {
                             This site is similar to KickStart and GoFundMe, but with more freedom of allowing users to pool in money to crowdsource and/or consolidate foreign goods.
                             Development in progress, but it is being developed using React with MUI, a backend using Python and Flask, and using MongoDB as our database.
                         </Text>
-                        <a className="github_button" target="_blank" rel="noopener" href="https://github.com/marajput123/wesource-backend">
-                            <IconButton
-                                aria-label="Github Icon"
-                                borderTopRadius="none"
-                                colorScheme="blue"
-                                fontSize="45px"
-                                size="lg"
-                                w="100%"
-                                icon={<FaGithub />}></IconButton></a>
+                        <Flex>
+                            <Box w="100%">
+                                <a className="github_button" target="_blank" rel="noopener" href="https://github.com/marajput123/wesource-backend">
+                                    <IconButton
+                                        aria-label="Github Icon"
+                                        borderTopRadius="none"
+                                        colorScheme="blue"
+                                        fontSize="45px"
+                                        size="lg"
+                                        w="100%"
+                                        icon={<FaGithub />}></IconButton></a>
+                            </Box>
+                            <Box w="100%">
+                                <a className="website_button" target="_blank" rel="noopener" href="https://spicadox.github.io/wesource-frontend/">
+                                    <IconButton
+                                        aria-label="CgWebsite Icon"
+                                        borderRadius="none"
+                                        colorScheme="purple"
+                                        fontSize="45px"
+                                        size="lg"
+                                        w="100%"
+                                        icon={<CgWebsite />}></IconButton></a>
+                            </Box>
+                        </Flex>
                     </Flex>
                 </Flex>
             </Box>
