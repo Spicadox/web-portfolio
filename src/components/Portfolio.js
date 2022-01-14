@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Center, Flex } from '@chakra-ui/layout'
-import { Text, Heading, Button, IconButton } from "@chakra-ui/react"
+import { Text, Heading, IconButton } from "@chakra-ui/react"
 import { FaGithub } from "react-icons/fa"
 import { CgWebsite } from "react-icons/cg"
 
@@ -19,7 +19,7 @@ function portfolio() {
                             It is essentially a downloading/archiving tool for the Japanese website Twitcasting.
                             Developed using Python and using FFMPEG and libaries like BeautifulSoup and Selenium.
                         </Text>
-                        <a className="github_button" target="_blank" rel="noopener" href="https://github.com/Spicadox/TwitCastingDownloader">
+                        <a className="github_button" target="_blank" rel="noreferrer" href="https://github.com/Spicadox/TwitCastingDownloader">
                             <IconButton
                                 aria-label="Github Icon"
                                 borderTopRadius="none"
@@ -39,7 +39,7 @@ function portfolio() {
                         </Text>
                         <Flex>
                             <Box w="100%">
-                                <a className="github_button" target="_blank" rel="noopener" href="https://github.com/Spicadox/OtakuMeetUp">
+                                <a className="github_button" target="_blank" rel="noreferrer" href="https://github.com/Spicadox/OtakuMeetUp">
                                     <IconButton
                                         borderRadius="none"
                                         aria-label="Github Icon"
@@ -50,7 +50,7 @@ function portfolio() {
                                         icon={<FaGithub />}></IconButton></a>
                             </Box>
                             <Box w="100%">
-                                <a className="website_button" target="_blank" rel="noopener" href="https://otaku-meetup.herokuapp.com/">
+                                <a className="website_button" target="_blank" rel="noreferrer" href="https://otaku-meetup.herokuapp.com/">
                                     <IconButton
                                         borderRadius="none"
                                         aria-label="CgWebsite Icon"
@@ -69,7 +69,7 @@ function portfolio() {
                             using Python and using dash, pandas, and go. This project was done within a group in my software engineering course where
                             we attempted to practice an agile work environement.
                         </Text>
-                        <a className="github_button" target="_blank" rel="noopener" href="https://github.com/Spicadox/ITSC-3155-Group">
+                        <a className="github_button" target="_blank" rel="noreferrer" href="https://github.com/Spicadox/ITSC-3155-Group">
                             <IconButton
                                 aria-label="Github Icon"
                                 borderTopRadius="none"
@@ -87,7 +87,7 @@ function portfolio() {
                         </Text>
                         <Flex>
                             <Box w="100%">
-                                <a className="github_button" target="_blank" rel="noopener" href="https://github.com/Spicadox/w2x101">
+                                <a className="github_button" target="_blank" rel="noreferrer" href="https://github.com/Spicadox/w2x101">
                                     <IconButton
                                         aria-label="Github Icon"
                                         borderRadius="none"
@@ -98,7 +98,7 @@ function portfolio() {
                                         icon={<FaGithub />}></IconButton></a>
                             </Box>
                             <Box w="100%">
-                                <a className="website_button" target="_blank" rel="noopener" href="https://spicadox.github.io/w2x101/">
+                                <a className="website_button" target="_blank" rel="noreferrer" href="https://spicadox.github.io/w2x101/">
                                     <IconButton
                                         aria-label="CgWebsite Icon"
                                         borderRadius="none"
@@ -112,11 +112,12 @@ function portfolio() {
                     </Flex>
 
                     <Flex flexDirection="column" className="project" borderWidth="1px" borderRadius="lg" overflow="auto">
-                        <Heading className="project_name">BiliBili Link Grabber</Heading>
-                        <Text className="project_description">A CLI script that grabs all video URLs on certain BiliBili pages and writes it into a csv file. The csv file can be used by youtube-dl and annie to download all the video links in the csv file.
-                            Developed using Python and libraries like BeautifulSoup and Selenium.
+                        <Heading className="project_name">Auto-Twitter-Space</Heading>
+                        <Text className="project_description">A program that tracks twitter spaces and sends it to a discord webhook.
+                            It uses the twitter api to find twitter spaces and then the m3u8 url for the space is found using selenium and will have it printed on console and posted using a discord webhook.
+                            Optionally It can also download the twitter space after it ends.
                         </Text>
-                        <a className="github_button" target="_blank" rel="noopener" href="https://github.com/Spicadox/bilibili-link-grabber">
+                        <a className="github_button" target="_blank" rel="noreferrer" href="https://github.com/Spicadox/auto-twitter-space">
                             <IconButton
                                 aria-label="Github Icon"
                                 borderTopRadius="none"
@@ -135,10 +136,10 @@ function portfolio() {
                         </Text>
                         <Flex>
                             <Box w="100%">
-                                <a className="github_button" target="_blank" rel="noopener" href="https://github.com/marajput123/wesource-backend">
+                                <a className="github_button" target="_blank" rel="noreferrer" href="https://github.com/marajput123/wesource-backend">
                                     <IconButton
                                         aria-label="Github Icon"
-                                        borderTopRadius="none"
+                                        borderRadius="none"
                                         colorScheme="blue"
                                         fontSize="45px"
                                         size="lg"
@@ -146,7 +147,7 @@ function portfolio() {
                                         icon={<FaGithub />}></IconButton></a>
                             </Box>
                             <Box w="100%">
-                                <a className="website_button" target="_blank" rel="noopener" href="https://spicadox.github.io/wesource-frontend/">
+                                <a className="website_button" target="_blank" rel="noreferrer" href="https://spicadox.github.io/wesource-frontend/">
                                     <IconButton
                                         aria-label="CgWebsite Icon"
                                         borderRadius="none"
