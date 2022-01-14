@@ -21,20 +21,20 @@ function about() {
                 </Text>
                 <Center>
                     <HStack p="1em" spacing="2em">
-                        <a target="_blank" href="https://github.com/Spicadox"><IconButton
+                        <a target="_blank" rel="noreferrer" href="https://github.com/Spicadox"><IconButton
                             aria-label="Github Icon"
                             fontSize="45px"
                             size="lg"
                             icon={<FaGithub />} />
                         </a>
-                        <a target="_blank" href="https://www.linkedin.com/in/sam-phung7/"><IconButton
+                        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/sam-phung7/"><IconButton
                             aria-label="Linkedin Icon"
                             fontSize="45px"
                             size="lg"
                             icon={<FaLinkedin />} />
                         </a>
 
-                        <a target="_blank" href={Resume}><Button size="lg" leftIcon={<IoOpenOutline />}>
+                        <a target="_blank" rel="noreferrer" href={Resume}><Button size="lg" leftIcon={<IoOpenOutline />}>
                             Resume
                         </Button></a>
                     </HStack>
