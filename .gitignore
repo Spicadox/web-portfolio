@@ -4,4 +4,3 @@ node_modules/
 # misc
 .history/
 .env
-build/
