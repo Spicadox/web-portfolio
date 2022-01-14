@@ -1,6 +1,6 @@
 import React from 'react'
 import { Text } from '@chakra-ui/react'
-import { Box, Flex, Center } from '@chakra-ui/layout'
+import { Flex, Center } from '@chakra-ui/layout'
 import { BsArrowUpSquare } from 'react-icons/bs'
 import { IconButton } from '@chakra-ui/react'
 import { animateScroll as scroll } from 'react-scroll'
