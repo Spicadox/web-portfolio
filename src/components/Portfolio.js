@@ -50,7 +50,7 @@ function portfolio() {
                                         icon={<FaGithub />}></IconButton></a>
                             </Box>
                             <Box w="100%">
-                                <a className="website_button" target="_blank" rel="noreferrer" href="https://otaku-meetup.herokuapp.com/">
+                                <a className="website_button" target="_blank" rel="noreferrer" href="https://otakumeetup-production.up.railway.app/">
                                     <IconButton
                                         borderRadius="none"
                                         aria-label="CgWebsite Icon"
